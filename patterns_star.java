@@ -1,5 +1,5 @@
 
-public class patterns {
+public class patterns_star {
     public static void main(String[] args) {
         int n=4;
         int m=5;
@@ -39,6 +39,19 @@ public class patterns {
             for( int j=0;j<=i;j++){
                 System.out.print("*");
             }
+            System.out.println();
+        }
+
+        //---pattern 4---
+        System.out.println("pattern 4:");
+        for(int i=0;i<n;i++){
+            for(int k=n-i;k>=0;k--){
+                System.out.print(" ");
+            }
+            for( int j=0;j<=i;j++){
+                System.out.print("*");
+            }
+            
             System.out.println();
         }
    }
