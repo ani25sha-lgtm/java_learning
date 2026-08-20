@@ -53,7 +53,7 @@ public class advance_patterns {
 
         // ---pattern 3---
 
-        n=5;
+       // n=5;
         System.out.println("pattern 3:");
     }
 }
