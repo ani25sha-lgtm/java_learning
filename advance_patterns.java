@@ -65,5 +65,24 @@ public class advance_patterns {
         System.out.println();
         }
 
+        // ---pattern 4---
+
+        n=5;
+        System.out.println("pattern 4:");
+        for(int i=0;i<n;i++){
+            for(int k=n-i-1;k>=0;k--){
+                System.out.print(" ");
+            }
+            //1st half
+            for(int j=i+1;j>0;j--){
+               System.out.print(j);
+                }
+            //2nd half
+            for(int j=2;j<=i+1;j++){
+                System.out.print(j);
+            }
+        System.out.println();
+        }
+
     }
 }
